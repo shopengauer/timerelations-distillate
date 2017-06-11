@@ -1,0 +1,18 @@
+package com.distillate.timerelations;
+
+public enum PeriodRelation {
+
+    AFTER,
+    START_TOUCHING,
+    START_INSIDE,
+    INSIDE_START_TOUCHING,
+    ENCLOSING_START_TOUCHING,
+    ENCLOSING,
+    ENCLOSING_END_TOUCHING,
+    EXACT_MATCH,
+    INSIDE,
+    INSIDE_END_TOUCHING,
+    END_INSIDE,
+    END_TOUCHING,
+    BEFORE
+}
